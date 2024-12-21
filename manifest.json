@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Stox",
+    "version": "1.0",
+    "description": "Check the current price of any stock, at any time.",
+    "permissions": ["activeTab"],
+    "host_permissions": ["https://www.alphavantage.co/*"],
+    "action": {
+      "default_popup": "stox.html",
+      "default_icon": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+      }
+    }
+  }

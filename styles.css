@@ -1,0 +1,100 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+  background-color: #3f3f48;
+  color: #333;
+}
+
+#app {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #3f3f48;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  margin: 10px auto;
+  display: block;
+}
+
+#app h3 {
+  font-family: monospace;
+  margin: 10px;
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+
+#stock-symbol {
+  width: calc(100% - 40px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+#stock-symbol:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.section {
+  background-color: #6b6b79;
+  padding: 10px;
+  border: 3px solid #2e2e34;
+}
+
+button {
+  display: inline-block;
+  font-family: monospace;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#check-price {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid black;
+}
+
+#check-price:hover {
+  background-color: #93d500;
+  color: #000000;
+  border: 2px solid black;
+}
+
+#daily-change, #weekly-change, #monthly-change {
+  background-color: #000000;
+  color: #ffffff;
+  border: 2px solid black;
+}
+
+#daily-change:hover,
+#weekly-change:hover,
+#monthly-change:hover {
+  background-color: #93d500;
+  color: #000000;
+  border: 2px solid black;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #333;
+  background-color: #e9ecef;
+  padding: 30px;
+  border: 3px solid #818284;
+}

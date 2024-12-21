@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      min-width: 400px;
+    }
+  </style>
+  <title>Stox</title>
+</head>
+<body>
+  <div id="app">
+    <div class="section">
+      <img src="images/logo.png" alt="Stox Logo" id="logo">
+      <input type="text" id="stock-symbol" placeholder="Enter a stock symbol">
+      <button id="check-price">Check Current Price</button>
+    </div>
+    <p id="result">Welcome to Stox!</p>
+    <div>
+      <div class="section">
+        <h3>Price Change</h3>
+        <button id="daily-change">Daily</button>
+        <button id="weekly-change">Weekly</button>
+        <button id="monthly-change">Monthly</button>
+      </div>
+    </div>
+  </div>
+  <script src="stox.js"></script>
+</body>
+</html>
