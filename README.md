@@ -1,7 +1,7 @@
 # Stox: A Google Chrome extension for stock price checking
 
-![screenshot1](/images/demo.png)
 ![screenshot2](/images/demo2.png)
+![screenshot1](/images/demo.png)
 
 ### Features
 - Allows users to check the current price of any stock
